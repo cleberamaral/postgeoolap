@@ -1,0 +1,22 @@
+PostGeoOLAP v.0.8.3 news
+
+- if properties file corresponding to system language doesn't exist, 
+loads English version, rather than throwing an exception
+- now it's possible to define the fact table at any time
+- non-geographical criteria specification dialog improved
+- metadata table's primary keys are serial
+
+- verificar geração das agregaçoes
+- capturar exceção quando data warehouse está sem definições de integridade referencial
+- permitir selecionar item da árvore com o botão direito sem selecionar item anteriormente com botão
+esquerdo
+- permitir exclusão do cubo
+- verificar se agregações que constam nos metadados realmente existem no data warehouse
+- atualizar on-line o log de processamento do cubo
+- permitir reprocessamento do cubo
+- remover as dimensões já selecionadas da tela de seleção de dimensões
+- permitir exclusão de dimensões do cubo
+- incluir "sequence" nos metadados, eliminando a função que captura o max do codigo
+- recarregar árvore sem fechá-la
+- fechar janelas após utilizar
+- remover esquema teste

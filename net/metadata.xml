@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<metadata>
+	<server>
+		<server-location>localhost</server-location>
+		<database-name>pgometadata</database-name>
+		<user>postgres</user>
+		<password>database-password</password>
+	</server>
+</metadata>
